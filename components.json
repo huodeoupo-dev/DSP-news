@@ -1,0 +1,114 @@
+# 🚀 快速开始指南（5步完成）
+
+## 你的目标
+让音乐新闻网站每天早上10点自动更新最新内容
+
+---
+
+## 第一步：创建 GitHub 账号（3分钟）
+
+1. 打开浏览器，访问：
+   ```
+   https://github.com
+   ```
+
+2. 点击 **Sign up**（注册）
+   - 输入邮箱
+   - 设置密码
+   - 设置用户名（用英文，比如 yourname）
+
+3. 验证邮箱（登录邮箱，点击验证链接）
+
+---
+
+## 第二步：创建代码仓库（2分钟）
+
+1. 登录 GitHub 后，点击右上角 **+** → **New repository**
+
+2. 填写：
+   - Repository name: `dsp-news-dashboard`
+   - Description: `音乐新闻自动更新`
+   - 选择 **Public**
+   - ✅ 勾选 "Add a README file"
+
+3. 点击 **Create repository**
+
+---
+
+## 第三步：上传代码（3分钟）
+
+1. 在你的仓库页面，点击 **uploading an existing file**
+
+2. 把解压后的 `dsp-news-dashboard` 文件夹里的**所有文件**拖拽到网页上
+
+3. 滑动到底部，点击 **Commit changes**
+
+---
+
+## 第四步：启用自动更新（1分钟）
+
+1. 点击仓库顶部的 **Actions** 标签
+
+2. 点击 **Enable Actions**（如果出现）
+
+3. 找到 **Daily News Update** 工作流
+
+4. 点击右侧的 **Run workflow** → **Run workflow**
+
+5. 等待显示 ✅ 绿色勾号
+
+---
+
+## 第五步：部署网站（3分钟）
+
+1. 打开 https://vercel.com
+
+2. 点击 **Sign Up**，选择用 **GitHub 登录**
+
+3. 点击 **Add New** → **Project**
+
+4. 找到 `dsp-news-dashboard`，点击 **Import**
+
+5. 确保设置正确：
+   - Framework: Vite
+   - Build Command: pnpm build
+   - Output Directory: dist
+
+6. 点击 **Deploy**
+
+7. 等待显示 ✅ Done
+
+---
+
+## 🎉 完成！
+
+你的网站已经可以访问了！
+
+**网站链接**会在 Vercel 上显示，通常是：
+```
+https://dsp-news-dashboard.vercel.app
+```
+
+---
+
+## 以后每天早上10点...
+
+```
+GitHub 自动抓取新闻 → 自动更新网站 → 自动部署
+```
+
+**你什么都不用做！**
+
+---
+
+## 常见问题
+
+| 问题 | 解决方法 |
+|------|----------|
+| 看不懂英文 | 用 Chrome 浏览器，右键翻译成中文 |
+| 上传失败 | 确保文件名都是英文 |
+| 部署失败 | 检查 Build Command 是否是 `pnpm build` |
+
+---
+
+**需要帮助随时告诉我！** 📱
